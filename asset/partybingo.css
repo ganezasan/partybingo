@@ -112,16 +112,18 @@ body {
 }
 #start-button {
   font-size: 60pt;
-  padding: 10px 140px
 }
 #reset-button {
   font-size: 16pt;
   padding: 49px 10px
 }
 .histories {
-  width: 90%
+  width: 100%;
+  display: block;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 .history-number {
-  font-size: 40pt;
-  margin: 5px 40px
+  font-size: 28pt;
+  margin: 5px 10px
 }
